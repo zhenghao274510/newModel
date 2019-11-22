@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-icon": "/components/select-date/uni-icon"
+  },
+  "component": true
+}

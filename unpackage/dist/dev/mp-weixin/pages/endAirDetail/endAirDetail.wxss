@@ -1,0 +1,209 @@
+
+page {
+	width: 100%;
+	height: 100%;
+	background: #F9F9F9;
+	position: relative;
+}
+.contain {
+	width: 100%;
+	height: 100%;
+}
+.top {
+	width: 100%;
+	height: 300rpx;
+	background-image: -webkit-linear-gradient(top, #E02B11, #F75F33);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	padding: 0 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.title {
+	width: 100%;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	position: relative;
+}
+.back {
+	position: absolute;
+	left: 0;
+}
+.current {
+	width: 100%;
+	height: 40rpx;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}
+.detail {
+	position: absolute;
+	width: 100%;
+	padding: 30rpx;
+	left: 0;
+	top: 70rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	z-index: 999;
+	box-sizing: border-box;
+}
+.wrapper {
+	width: 100%;
+	background: #fff;
+	border-radius: 4px;
+}
+.choiceTitle {
+	width: 100%;
+	height: 80rpx;
+	font-size: 14px;
+	color: #999;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.clock {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	font-size: 14px;
+	color: #333;
+	padding: 0 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin-top: 20rpx;
+}
+.start {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.time {
+	font-size: 18px;
+}
+.start>._img {
+	width: 280rpx;
+	margin-top: 10rpx;
+}
+.bottomList {
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+	margin-top: 16rpx;
+}
+.result {
+	width: 100%;
+	position: absolute;
+	top: 400rpx;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	padding: 0 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background: #FFFFFF;
+	border-radius: 4px;
+}
+.airs-list {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	padding: 20rpx 0;
+	border-bottom: 1px solid #eee;
+}
+.airs-list:last-child {
+	border-bottom: none;
+}
+.airs-top {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.air-btns {
+	padding: 6rpx 40rpx;
+	background: #E02B11;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #fff;
+}
+.airs-mark {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 12px;
+	color: #E02B11;
+	margin: 16rpx 0;
+}
+.airs-mark>view {
+	padding: 2rpx 20rpx;
+	border: 1px solid #E02B11;
+	border-radius: 4px;
+	margin-right: 20rpx;
+}
+.recommend {
+	width: 100%;
+	font-size: 14px;
+	color: #333;
+	margin-top: 10rpx;
+	color: #999;
+}
+

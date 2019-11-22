@@ -1,0 +1,101 @@
+
+page {
+	width: 100%;
+	height: 100%;
+}
+.contain {
+	width: 100%;
+	height: 100%;
+	background: #F8F8F8;
+	position: relative;
+}
+.produce {
+	width: 100%;
+	padding: 20rpx 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	/* border-bottom: 2px solid #eee;
+	border-top: 2px solid #eee; */
+}
+.produce>._p {
+	font-size: 12px;
+	color: #999;
+	text-align: justify;
+}
+.message {
+	width: 90%;
+	padding: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	font-size: 14px;
+	color: #333;
+	/* border-bottom: 2px solid #eee; */
+	margin: 0 auto;
+	border-radius: 4px;
+	background: #fff;
+}
+.user_msg {
+	width: 100%;
+	height: 40rpx;
+	line-height: 40rpx;
+	/* border-bottom: 1px solid #eee; */
+	font-size: 15px;
+	color: #333;
+	padding-left: 20rpx;
+	border-left: 2px solid #DE2910;
+	margin-bottom: 20rpx;
+}
+.cu-form-group {
+	padding: 0 0 0 20rpx !important;
+	min-height: 90rpx !important;
+	border: none !important;
+}
+.cu-form-group>input {
+	background: #F8F8F8;
+	padding: 0 20rpx;
+	height: 60rpx;
+}
+.title {
+	width: 160rpx;
+}
+.bind_card {
+	width: 80%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 160rpx auto 0;
+}
+.card_btn {
+	width: 100%;
+	border-radius: 4px;
+	/* border: 1px solid #eee; */
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	background: #DE2910;
+}
+

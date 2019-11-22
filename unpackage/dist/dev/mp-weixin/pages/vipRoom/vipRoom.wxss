@@ -1,0 +1,99 @@
+
+.contain {
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+}
+.search {
+	width: 100%;
+	height: 90rpx;
+	padding: 0 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	border-bottom: none;
+}
+
+/*菜单*/
+.nav {
+	font-size: 28rpx;
+	text-align: center;
+	height: 72rpx;
+}
+.nav view {
+	display: inline-block;
+	width: 50%;
+	padding: 16rpx 0;
+}
+.nav .active {
+	border-bottom: 2rpx solid #DE2910;
+	color: #DE2910;
+}
+.list {
+	width: 100%;
+}
+.item-list {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 20rpx 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-bottom: 1px solid #eee;
+}
+.item-list>._img {
+	width: 30rpx;
+	height: 30rpx;
+}
+.item-name {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	font-size: 14px;
+	color: #333;
+}
+.item-location {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 12px;
+	color: #333;
+	margin-top: 16rpx;
+}
+.item-location>._img {
+	width: 18rpx;
+	height: 24rpx;
+}
+

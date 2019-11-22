@@ -1,0 +1,110 @@
+
+page {
+	width: 100%;
+	height: 100%;
+}
+.contain {
+	width: 100%;
+	height: 100%;
+	background: #F8F8F8;
+}
+.lists {
+	width: 100%;
+	padding: 30rpx 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin-bottom: 120rpx;
+}
+.list {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+	-webkit-box-shadow: 1px 0 4px #eee;
+	        box-shadow: 1px 0 4px #eee;
+	margin-bottom: 30rpx;
+	padding: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.list-top {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	font-size: 28rpx;
+	color: #333;
+	margin-bottom: 20rpx;
+}
+.state {
+	padding-left: 20rpx;
+	border-left: 2px solid #DE2910;
+	font-size: 15px;
+}
+.msg {
+	width: 100%;
+	height: 50rpx;
+	padding-left: 24rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	font-size: 28rpx;
+	color: #666;
+}
+.pay {
+	width: 100%;
+	height: 100rpx;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: 1px solid #eee;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	font-size: 28rpx;
+	color: #333;
+}
+.payBtns {
+	height: 100rpx;
+	line-height: 100rpx;
+	background: red;
+	color: #fff;
+	padding: 0 60rpx;
+}
+

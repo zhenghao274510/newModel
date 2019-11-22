@@ -1,0 +1,212 @@
+
+page {
+	width: 100%;
+	height: 100%;
+}
+.contain {
+	width: 100%;
+	height: 100%;
+	background: #F8F8F8;
+}
+.tab {
+	width: 100%;
+}
+.tabs {
+	width: 100%;
+	padding: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.now {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 60rpx;
+	font-size: 14px;
+	color: #333;
+}
+.now>._img {
+	width: 44rpx;
+	height: 44rpx;
+}
+.now>text {
+	margin-left: 20rpx;
+}
+.start {
+	width: 100%;
+	height: 90rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 14px;
+	color: #333;
+	border-bottom: 1px solid #eee;
+	margin-top: 20rpx;
+}
+.start>._img {
+	width: 60rpx;
+	height: 60rpx;
+}
+.start>view {
+	width: 72%;
+	text-align: left;
+}
+.search {
+	width: 70%;
+	height: 70rpx;
+	line-height: 70rpx;
+	margin: 0 auto;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+	margin-top: 80rpx;
+}
+.interest {
+	width: 100%;
+	font-size: 14px;
+	color: #333;
+	padding: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.list {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	background: #fff;
+	border-radius: 4px;
+	margin-bottom: 30rpx;
+}
+.list-top {
+	width: 100%;
+	margin: 20rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-left: 2px solid #DE2910;
+	padding-left: 20rpx;
+}
+.btn {
+	padding: 4rpx 22rpx;
+	border: 1px solid #eee;
+	border-radius: 4px;
+}
+.air_name {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	padding: 0 20rpx 24rpx;
+}
+.air_name>._img {
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 20rpx;
+}
+.record {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 0 20rpx 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.record>._img {
+	width: 50rpx;
+	height: 50rpx;
+}
+.goStart {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.timer {
+	font-size: 40rpx;
+	color: #333;
+	font-weight: 600;
+	margin-bottom: 20rpx;
+	text-align: center;
+}
+.address {
+	font-size: 14px;
+	color: #999;
+}
+.state1 {
+	padding: 8rpx 20rpx;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	background: #40D267;
+	font-size: 12px;
+	color: #fff;
+}
+.state2 {
+	padding: 8rpx 20rpx;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	background: #FE9423;
+	font-size: 12px;
+	color: #fff;
+}
+.state3 {
+	padding: 8rpx 20rpx;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	background: #DE2910;
+	font-size: 12px;
+	color: #fff;
+}
+

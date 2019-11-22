@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "model": "/components/model/model",
+    "swipers": "/components/swiper/swiper"
+  }
+}

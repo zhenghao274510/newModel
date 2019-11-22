@@ -1,0 +1,1 @@
+<view class="contain"><view class="fixed"><cu-custom vue-id="1" isBack="{{true}}" Color="{{Color}}" backColor="{{backColor}}" isIcon="{{true}}" bgColor="bg-shadeTop text-white" bind:__l="__l" vue-slots="{{['backText','content']}}"><view slot="backText"></view><view slot="content">{{service}}</view></cu-custom></view><view class="list"><view>{{content}}</view></view></view>

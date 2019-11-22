@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "animationType": "slide-in-right",
+  "animationDuration": 500,
+  "usingComponents": {
+    "m-search": "/components/search/search",
+    "ss-select-city": "/components/select-city/select-city"
+  }
+}

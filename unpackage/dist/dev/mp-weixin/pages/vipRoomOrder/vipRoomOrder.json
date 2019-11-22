@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "model": "/components/model/model",
+    "toast": "/node-modules/vant/es/index"
+  }
+}

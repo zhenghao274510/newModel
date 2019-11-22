@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "animationType": "slide-in-right",
+  "animationDuration": 500,
+  "usingComponents": {
+    "toast": "/node-modules/vant/es/index",
+    "dialog": "/node-modules/vant/es/index"
+  }
+}

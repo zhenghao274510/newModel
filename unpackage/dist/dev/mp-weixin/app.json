@@ -1,0 +1,102 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/vip/vip",
+    "pages/mine/mine",
+    "pages/apply/apply",
+    "pages/bind/bind",
+    "pages/opened/opened",
+    "pages/backCard/backCard",
+    "pages/replaceCard/replaceCard",
+    "pages/sucResult/sucResult",
+    "pages/vipDetail/vipDetail",
+    "pages/vipRoom/vipRoom",
+    "pages/vipProduce/vipProduce",
+    "pages/appointment/appointment",
+    "pages/vipAppointment/vipAppointment",
+    "pages/pay/pay",
+    "pages/assistant/assistant",
+    "pages/vipOrder/vipOrder",
+    "pages/vipRoomOrder/vipRoomOrder",
+    "pages/flight/flight",
+    "pages/airList/airList",
+    "pages/airDetail/airDetail",
+    "pages/message/message",
+    "pages/messageDetail/messageDetail",
+    "pages/airTicket/airTicket",
+    "pages/selectCity/selectCity",
+    "pages/selectTime/selectTime",
+    "pages/singleAir/singleAir",
+    "pages/singleAirDetail/singleAirDetail",
+    "pages/airOrder/airOrder",
+    "pages/editorAir/editorAir",
+    "pages/score/score",
+    "pages/scoreDetail/scoreDetail",
+    "pages/order/order",
+    "pages/orderAir/orderAir",
+    "pages/orderAirDetail/orderAirDetail",
+    "pages/editor/editor",
+    "pages/no/no",
+    "pages/content/content",
+    "pages/airStart/airStart",
+    "pages/serviceContent/serviceContent",
+    "pages/friends/friends",
+    "pages/flightTab/flightTab",
+    "pages/hotDetail/hotDetail",
+    "pages/noOpen/noOpen",
+    "pages/doubleDate/doubleDate",
+    "pages/airEnd/airEnd",
+    "pages/doubleOrder/doubleOrder",
+    "pages/startAirDetail/startAirDetail",
+    "pages/endAirDetail/endAirDetail",
+    "pages/set/set",
+    "pages/vipOrderList/vipOrderList",
+    "pages/vipListDetail/vipListDetail",
+    "pages/sucAir/sucAir"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#E42417",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/bar/icon1_select.png",
+        "selectedIconPath": "static/bar/icon1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/no/no",
+        "iconPath": "static/bar/icon2_select.png",
+        "selectedIconPath": "static/bar/icon2.png",
+        "text": "会员商城"
+      },
+      {
+        "pagePath": "pages/vip/vip",
+        "iconPath": "static/bar/icon3_select.png",
+        "selectedIconPath": "static/bar/icon3.png",
+        "text": "驿站会员"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/bar/icon4_select.png",
+        "selectedIconPath": "static/bar/icon4.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000
+  },
+  "permission": {},
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

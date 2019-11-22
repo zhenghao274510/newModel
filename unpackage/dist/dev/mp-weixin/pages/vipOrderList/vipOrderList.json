@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "animationType": "slide-in-right",
+  "animationDuration": 500,
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

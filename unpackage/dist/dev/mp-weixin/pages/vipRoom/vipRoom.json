@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "m-search": "/components/search/search",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "animationType": "slide-in-right",
+  "animationDuration": 500,
+  "usingComponents": {
+    "lotus-address": "/components/Winglau14-lotusAddress/Winglau14-lotusAddress",
+    "toast": "/node-modules/vant/es/index"
+  }
+}
